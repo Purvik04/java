@@ -1,6 +1,6 @@
 public class Types {
 
-    static void types() {
+    static{
 
         // === Primitive data types ===
         boolean bo = true;
@@ -98,7 +98,10 @@ public class Types {
             RED, BLUE, GREEN, YELLOW;
         }
 
-        Color bloodColor = Color.RED;
+        Color bloodColor = Color.BLUE;
+        int index = Color.BLUE.ordinal();
+        String s2 = Color.BLUE.name();
+        System.out.println(index + " " + s2);
 
         // 5) Strings
 

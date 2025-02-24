@@ -1,6 +1,6 @@
 package Questions;
 
-class Test {
+public class Testing {
     private static void div(int i, int j) {
         try {
             System.out.println(i / j);
